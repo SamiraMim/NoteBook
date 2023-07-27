@@ -1,0 +1,43 @@
+#toDoList {
+    margin:20px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    width: 90%;
+    text-align: left;
+}
+#toDoList  hr {
+    margin: 20px 0;
+}
+
+#toDoList input, #toDoList label {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 5px auto;
+}
+#toDoList button {
+    font-size: 14px;
+    padding: 5px 20px;
+    margin: 5px auto;
+    border: none;
+    font-weight: bold;
+}
+#toDoList button.btn.btn-info {
+    background-color: #4e9fb7;
+    color: white;
+}
+#toDoList ul.list-group {
+    overflow-y: scroll;
+    max-height: 100px;
+
+}
+#toDoList ul.list-group li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f5fafb;
+    /* padding: 10px; */
+}
+#toDoList ul.list-group li i {
+    position: absolute;
+    display: inline-flex;
+    right: 10px;
+}
