@@ -4,6 +4,10 @@
 @import url('./styles/header.css');
 @import url('./styles/calendar.css');
 @import url('./styles/toDoList.css');
+@import url('./styles/calculator.css');
+@import url('./styles/animation.css');
+
+
 
 
 @font-face {
@@ -45,9 +49,13 @@ body {
 }
 section {
     padding: 40px 10px;
+}
+.section-light {
     background-color: white;
 }
-
+.section-dark {
+    background-color: none;
+}
 .clock canvas {
     box-shadow: 0px 0px 8px rgba(0,0,0,.3);
     border-radius: 50%;

@@ -1,0 +1,28 @@
+.animation {
+    justify-content: center;
+    align-items: center;
+    background-color: #244c58;
+    padding: 15px;
+    margin: 40px 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.stagger-visualizer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    height: 25rem;
+    margin: auto;
+}
+
+.stagger-visualizer div {
+    width: 5rem;
+    height: 5rem;
+    background-color: #FFF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #D4AF37;
+}
